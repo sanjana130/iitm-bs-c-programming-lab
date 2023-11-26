@@ -13,8 +13,9 @@ void string_copy(char s[], char d[]){
 int main(){
     char src[80] = "red";
     char dst[80] = "orange";
-    string_copy(src, dst);
-    printf("%s", dst);
+    char new[80]="";
+    string_copy(src, new);
+    printf("%s", new);
     return 0;
 }
 
